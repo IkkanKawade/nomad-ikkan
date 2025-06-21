@@ -80,15 +80,15 @@ export default function SolutionSection() {
           </div>
         </div>
 
-        <div className="bg-gradient-to-r from-gray-900 via-blue-900 to-purple-900 rounded-3xl text-white p-12">
+        <div className="bg-gradient-to-r from-blue-900 via-blue-800 to-blue-900 rounded-3xl text-white p-12">
           <div className="text-center">
             <h3 className="text-3xl md:text-4xl font-bold mb-8">
-              ✨ なぜ今、<span className="text-yellow-400">Nomad X</span>なのか？
+              ✨ なぜ今、<span className="text-blue-200">Nomad X</span>なのか？
             </h3>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
               <div className="text-center">
-                <div className="bg-yellow-400 text-black rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl font-bold">
+                <div className="bg-blue-400 text-white rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl font-bold">
                   1
                 </div>
                 <h4 className="text-xl font-semibold mb-3">AI革命の真っ只中</h4>
@@ -98,7 +98,7 @@ export default function SolutionSection() {
               </div>
               
               <div className="text-center">
-                <div className="bg-yellow-400 text-black rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl font-bold">
+                <div className="bg-blue-400 text-white rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl font-bold">
                   2
                 </div>
                 <h4 className="text-xl font-semibold mb-3">リモートワークの一般化</h4>
@@ -108,7 +108,7 @@ export default function SolutionSection() {
               </div>
               
               <div className="text-center">
-                <div className="bg-yellow-400 text-black rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl font-bold">
+                <div className="bg-blue-400 text-white rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl font-bold">
                   3
                 </div>
                 <h4 className="text-xl font-semibold mb-3">円安で海外生活が有利</h4>
@@ -118,7 +118,7 @@ export default function SolutionSection() {
               </div>
             </div>
 
-            <div className="bg-yellow-400 text-black p-6 rounded-2xl">
+            <div className="bg-blue-400 text-white p-6 rounded-2xl">
               <p className="text-xl md:text-2xl font-bold">
                 🚀 機会は今しかない！先行者になって自由な人生を手に入れよう
               </p>

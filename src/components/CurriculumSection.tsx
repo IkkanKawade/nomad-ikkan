@@ -120,7 +120,7 @@ export default function CurriculumSection() {
           ))}
         </div>
 
-        <div className="mt-16 bg-gradient-to-r from-purple-600 to-blue-600 rounded-2xl text-white p-10 text-center">
+        <div className="mt-16 bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl text-white p-10 text-center">
           <h3 className="text-3xl font-bold mb-4">
             🎯 受講期間：6ヶ月間の集中プログラム
           </h3>
