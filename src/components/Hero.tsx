@@ -8,12 +8,14 @@ export default function Hero() {
               Nomad X
             </span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold text-blue-900 mb-6 leading-tight">
-            <span className="text-blue-600">AI × スモビジ事業 × 海外</span>
+          <h1 className="text-4xl md:text-6xl font-bold text-blue-900 mb-6 leading-tight">
+            <span className="text-blue-600">AIを活用して海外で</span>
             <br />
-            ──&ldquo;自由な生き方&rdquo;は、
+            <span className="text-blue-600">スモールビジネス事業を構築</span>
             <br />
-            <span className="text-blue-700">今からでも創れる。</span>
+            ──<span className="text-blue-700">自分だけの船を作って、</span>
+            <br />
+            <span className="text-blue-800">航海に出よう〜</span>
           </h1>
           <p className="text-xl md:text-2xl text-blue-800 mb-4 max-w-4xl mx-auto leading-relaxed">
             AIを活用して海外でスモールビジネスを立ち上げ、
