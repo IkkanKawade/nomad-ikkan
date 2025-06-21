@@ -7,8 +7,7 @@ export default function SolutionSection() {
             <span className="text-blue-600">Nomad X</span>とは？
           </h2>
           <p className="text-xl md:text-2xl text-gray-700 max-w-4xl mx-auto leading-relaxed">
-            AI時代に最適化された<br />
-            <strong className="text-purple-600">&ldquo;海外×スモールビジネス&rdquo;構築講座</strong>
+            <strong className="text-blue-600">海外でAIをフル活用して自分だけのスモールビジネスを<br />まるっと現地で構築するノマドスクールです。</strong>
           </p>
         </div>
 
