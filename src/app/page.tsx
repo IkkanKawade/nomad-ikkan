@@ -2,6 +2,7 @@ import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import ProblemSection from '@/components/ProblemSection'
 import SolutionSection from '@/components/SolutionSection'
+import ShipMetaphorSection from '@/components/ShipMetaphorSection'
 import CommunityValueSection from '@/components/CommunityValueSection'
 import CurriculumSection from '@/components/CurriculumSection'
 import TestimonialSection from '@/components/TestimonialSection'
@@ -20,6 +21,7 @@ export default function Home() {
       <KindleSection />
       <ProblemSection />
       <SolutionSection />
+      <ShipMetaphorSection />
       <CommunityValueSection />
       <CurriculumSection />
       <TestimonialSection />
