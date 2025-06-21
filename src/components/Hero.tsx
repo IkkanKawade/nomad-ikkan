@@ -4,9 +4,19 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <div className="mb-6">
-            <span className="inline-block bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text text-lg font-semibold mb-4">
-              Nomad X
-            </span>
+            <div className="flex items-center justify-center space-x-4 mb-4">
+              <div className="relative">
+                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-700 rounded-full flex items-center justify-center shadow-2xl">
+                  <span className="text-white text-3xl">⛵</span>
+                </div>
+                <div className="absolute -top-2 -right-2 w-8 h-8 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full flex items-center justify-center shadow-lg">
+                  <span className="text-lg">🤖</span>
+                </div>
+              </div>
+              <span className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text">
+                Nomad X
+              </span>
+            </div>
           </div>
           <h1 className="text-4xl md:text-6xl font-bold text-blue-900 mb-6 leading-tight">
             <span className="text-blue-600">AIを活用して海外で</span>
