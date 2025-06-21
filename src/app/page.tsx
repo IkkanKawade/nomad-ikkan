@@ -1,5 +1,9 @@
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
+import ProblemSection from '@/components/ProblemSection'
+import SolutionSection from '@/components/SolutionSection'
+import CurriculumSection from '@/components/CurriculumSection'
+import TestimonialSection from '@/components/TestimonialSection'
 import YouTubeSection from '@/components/YouTubeSection'
 import PortfolioSection from '@/components/PortfolioSection'
 import KindleSection from '@/components/KindleSection'
@@ -10,6 +14,10 @@ export default function Home() {
     <main className="min-h-screen bg-gray-50">
       <Header />
       <Hero />
+      <ProblemSection />
+      <SolutionSection />
+      <CurriculumSection />
+      <TestimonialSection />
       <YouTubeSection />
       <PortfolioSection />
       <KindleSection />
