@@ -18,9 +18,9 @@ export default function Hero() {
             <span className="text-blue-800">航海に出よう〜</span>
           </h1>
           <p className="text-xl md:text-2xl text-blue-800 mb-4 max-w-4xl mx-auto leading-relaxed">
-            AIを活用して海外でスモールビジネスを立ち上げ、
+            自分だけの船を作って、
             <br />
-            自分だけのライフスタイルを手に入れる。
+            航海に出よう
           </p>
           <p className="text-lg text-blue-700 mb-12 max-w-3xl mx-auto">
             ノマド型スモールビジネス育成スクール、ついに始動。
