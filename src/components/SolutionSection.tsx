@@ -85,14 +85,26 @@ export default function SolutionSection() {
               ✨ なぜ今、<span className="text-blue-200">Nomad X</span>なのか？
             </h3>
             
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
+            <div className="mb-12">
+              <div className="bg-red-100 border-l-4 border-red-500 text-red-900 p-6 rounded-lg mb-8 max-w-4xl mx-auto">
+                <h4 className="text-2xl font-bold mb-4 flex items-center">
+                  🚨 時代の転換点に立つ私たち
+                </h4>
+                <p className="text-lg leading-relaxed">
+                  <strong>AIによってスキルは均一化しました。</strong>大事なのは、小さくてもいいので、自分がオーナーシップを持った事業（船）を作ること。<br />
+                  <strong>日本というタイタニック号は沈みつつあるので、今から事業という船を作り、コツコツ航海していく必要がある。</strong>
+                </p>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
               <div className="text-center">
                 <div className="bg-blue-400 text-white rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl font-bold">
                   1
                 </div>
-                <h4 className="text-xl font-semibold mb-3">AI革命の真っ只中</h4>
-                <p className="text-gray-300">
-                  AIが普及する今こそ、先行者利益を獲得できる絶好のタイミング
+                <h4 className="text-lg font-semibold mb-3">AIスキル均一化時代</h4>
+                <p className="text-gray-300 text-sm">
+                  誰でもAIを使える今、差別化は「自分の事業を持つ」こと
                 </p>
               </div>
               
@@ -100,19 +112,29 @@ export default function SolutionSection() {
                 <div className="bg-blue-400 text-white rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl font-bold">
                   2
                 </div>
-                <h4 className="text-xl font-semibold mb-3">リモートワークの一般化</h4>
-                <p className="text-gray-300">
-                  場所に縛られない働き方が社会に受け入れられた今が参入チャンス
+                <h4 className="text-lg font-semibold mb-3">オーナーシップの重要性</h4>
+                <p className="text-gray-300 text-sm">
+                  小さくても自分が船長の事業（船）を持つことが生存戦略
+                </p>
+              </div>
+
+              <div className="text-center">
+                <div className="bg-blue-400 text-white rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl font-bold">
+                  3
+                </div>
+                <h4 className="text-lg font-semibold mb-3">日本脱出の必要性</h4>
+                <p className="text-gray-300 text-sm">
+                  沈みゆく日本から離れ、海外で新たな航海をスタートする時
                 </p>
               </div>
               
               <div className="text-center">
                 <div className="bg-blue-400 text-white rounded-full w-16 h-16 mx-auto mb-4 flex items-center justify-center text-2xl font-bold">
-                  3
+                  4
                 </div>
-                <h4 className="text-xl font-semibold mb-3">円安で海外生活が有利</h4>
-                <p className="text-gray-300">
-                  日本円で稼いで海外で使えば、実質的な購買力がアップ
+                <h4 className="text-lg font-semibold mb-3">今がベストタイミング</h4>
+                <p className="text-gray-300 text-sm">
+                  リモートワーク普及×AI革命×円安のトリプルチャンス
                 </p>
               </div>
             </div>
