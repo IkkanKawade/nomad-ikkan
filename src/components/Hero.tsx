@@ -9,7 +9,7 @@ export default function Hero() {
             </span>
           </div>
           <h1 className="text-5xl md:text-7xl font-bold text-blue-900 mb-6 leading-tight">
-            <span className="text-blue-600">AI × スモビジ × 海外</span>
+            <span className="text-blue-600">AI × スモビジ事業 × 海外</span>
             <br />
             ──&ldquo;自由な生き方&rdquo;は、
             <br />

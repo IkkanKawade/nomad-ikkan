@@ -4,7 +4,7 @@ export default function ProblemSection() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            日本人が<span className="text-blue-600">&ldquo;今&rdquo;</span>スモビジを始めるべき理由
+            日本人が<span className="text-blue-600">&ldquo;今&rdquo;</span>スモビジ事業を始めるべき理由
           </h2>
           <div className="max-w-4xl mx-auto">
             <div className="bg-gradient-to-r from-blue-600 to-blue-700 text-white p-8 rounded-2xl shadow-2xl mb-12">
