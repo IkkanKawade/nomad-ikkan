@@ -65,12 +65,12 @@ function BookCard({ title, description, amazonUrl, price, rating, coverImage, pu
 export default function KindleSection() {
   const books = [
     {
-      title: 'AI海外ノマド完全攻略ガイド',
-      description: 'AI技術を活用して海外ノマドとして成功するための実践的な手法を詳しく解説。リモートワーク、収入源の多様化、海外移住の手続きまで網羅した決定版ガイドブック。',
-      amazonUrl: '#',
-      price: '¥1,280',
+      title: 'Z世代は世界で稼げ。AIを最強の相棒にする"次世代型の海外ノマド入門"',
+      description: 'Z世代に向けた次世代型海外ノマド入門書。AIを最強の相棒として活用し、世界中どこでも稼げるスキルとマインドセットを身につける実践的ガイド。',
+      amazonUrl: 'https://amzn.asia/d/7LPXTVX',
+      price: '¥1,480',
       rating: 5,
-      publishDate: '2024年1月15日'
+      publishDate: '2024年6月21日'
     },
     {
       title: 'ChatGPTで収入を10倍にする方法',
