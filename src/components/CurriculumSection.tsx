@@ -74,7 +74,8 @@ export default function CurriculumSection() {
             </h2>
           </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            <span className="text-blue-600">超短期集中</span>ノマド事業構築講座
+            <span className="text-blue-600">実践特化の海外ノマド講座</span><br />
+            AIフル活用でスモールビジネス構築
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
             <strong>帰国後から事業運営がスタートできる状態まで持っていきます。あとは動くだけ。</strong>
