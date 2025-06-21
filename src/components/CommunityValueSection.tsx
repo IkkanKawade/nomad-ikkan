@@ -11,8 +11,7 @@ export default function CommunityValueSection() {
               🌍 海外ノマドコミュニティへの参加
             </h3>
             <p className="text-xl leading-relaxed">
-              単なる学習だけではない。<strong>リアルなノマドコミュニティ「T78」</strong>への参加権利を得て、
-              <br />
+              単なる学習だけではない。<strong>リアルなノマドコミュニティ「T78」</strong>への参加権利を得て、<br />
               世界中の仲間と実際につながり、共に成長していく環境が手に入ります。
             </p>
           </div>

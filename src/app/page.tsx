@@ -22,9 +22,9 @@ export default function Home() {
       <ProblemSection />
       <SolutionSection />
       <ShipMetaphorSection />
-      <CommunityValueSection />
       <CurriculumSection />
       <TestimonialSection />
+      <CommunityValueSection />
       <Footer />
     </main>
   )
