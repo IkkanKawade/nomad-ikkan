@@ -13,8 +13,14 @@ export default function Header() {
             <a href="#portfolio" className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">
               ポートフォリオ
             </a>
-            <a href="#books" className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">
+            <a href="https://amzn.asia/d/61X811U" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">
               Kindle本
+            </a>
+            <a href="https://t78-community.com/" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">
+              T78
+            </a>
+            <a href="https://substack.com/@ichiblog1" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium">
+              メルマガ
             </a>
           </nav>
         </div>

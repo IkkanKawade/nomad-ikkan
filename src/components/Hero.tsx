@@ -27,9 +27,14 @@ export default function Hero() {
             <button className="bg-gradient-to-r from-blue-500 to-blue-600 text-white px-10 py-4 rounded-full font-bold text-lg hover:from-blue-600 hover:to-blue-700 transition-all transform hover:scale-105 shadow-xl">
               ▶ 無料ガイドを今すぐ受け取る
             </button>
-            <button className="bg-transparent border-2 border-white text-white px-10 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-gray-900 transition-all transform hover:scale-105">
-              ▶ オンライン説明会に申し込む
-            </button>
+            <a 
+              href="https://www.youtube.com/@ichilife_radio"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-transparent border-2 border-white text-white px-10 py-4 rounded-full font-semibold text-lg hover:bg-white hover:text-gray-900 transition-all transform hover:scale-105 inline-block text-center"
+            >
+              ▶ YouTubeチャンネルを見る
+            </a>
           </div>
         </div>
       </div>

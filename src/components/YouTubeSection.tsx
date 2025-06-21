@@ -30,19 +30,19 @@ function YouTubeVideo({ videoId, title, description }: YouTubeVideoProps) {
 export default function YouTubeSection() {
   const videos = [
     {
-      videoId: 'dQw4w9WgXcQ', // プレースホルダー - 実際のVideo IDに置き換えてください
-      title: 'AI活用で月収100万円達成した方法',
-      description: '海外ノマドとしてAIツールを活用し、リモートワークで安定収入を得る具体的な手法を解説します。'
+      videoId: 'vp_dv5anPUc',
+      title: 'AI活用で海外ノマド生活を実現する方法',
+      description: 'AIツールを活用して場所に縛られない働き方を実現するための具体的な手法を解説します。'
     },
     {
-      videoId: 'dQw4w9WgXcQ', // プレースホルダー - 実際のVideo IDに置き換えてください
-      title: '海外移住前に知っておくべき5つのポイント',
-      description: 'ビザ、税金、保険など、海外移住する前に必ず準備しておくべき重要事項をまとめました。'
+      videoId: 'osU0__ThkwM',
+      title: '海外移住とリモートワークの実践ガイド',
+      description: '実際の海外移住体験談とリモートワークで成功するためのポイントを詳しく説明します。'
     },
     {
-      videoId: 'dQw4w9WgXcQ', // プレースホルダー - 実際のVideo IDに置き換えてください
-      title: 'ノマドに最適な国ランキングTOP10',
-      description: '生活費、インターネット環境、治安などを総合的に判断した、ノマドワーカーにおすすめの国をランキング形式で紹介。'
+      videoId: 'q4V6G1gzlTY',
+      title: 'デジタルノマドのライフスタイル',
+      description: '世界中を旅しながら働くデジタルノマドの日常と、その実現方法をお伝えします。'
     }
   ]
 
