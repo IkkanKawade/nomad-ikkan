@@ -71,30 +71,6 @@ export default function KindleSection() {
       price: '¥1,480',
       rating: 5,
       publishDate: '2024年6月21日'
-    },
-    {
-      title: 'ChatGPTで収入を10倍にする方法',
-      description: 'ChatGPTを活用したビジネス戦略とマネタイズ手法を実例とともに紹介。フリーランス、副業、起業家必読の一冊。実際に月収100万円を達成した具体的なノウハウを公開。',
-      amazonUrl: '#',
-      price: '¥980',
-      rating: 4,
-      publishDate: '2023年11月20日'
-    },
-    {
-      title: 'ノマドワーカーのための税金対策',
-      description: '海外在住者の税務処理、節税対策、確定申告の方法を税理士監修のもと詳しく解説。複雑な国際税務をわかりやすく説明し、合法的な節税方法を提案します。',
-      amazonUrl: '#',
-      price: '¥1,480',
-      rating: 5,
-      publishDate: '2023年9月10日'
-    },
-    {
-      title: 'AIツール活用術 2024年版',
-      description: '最新のAIツールとサービスを厳選して紹介。業務効率化、コンテンツ作成、プログラミング支援など、用途別に実践的な活用方法を解説します。',
-      amazonUrl: '#',
-      price: '¥1,180',
-      rating: 4,
-      publishDate: '2024年3月5日'
     }
   ]
 
@@ -104,7 +80,7 @@ export default function KindleSection() {
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">出版書籍</h2>
           <p className="text-lg text-gray-600">
-            AI活用と海外ノマドライフに関する実践的な知識をまとめた書籍をKindleで出版しています
+            AI活用と海外ノマドライフに関する実践的な知識をまとめた書籍をKindleで出版
           </p>
         </div>
         <div className="space-y-8">
