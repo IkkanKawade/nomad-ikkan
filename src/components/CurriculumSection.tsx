@@ -1,53 +1,53 @@
 export default function CurriculumSection() {
   const steps = [
     {
-      number: "01",
-      title: "AI基礎スキルの習得",
-      description: "ChatGPTや生成AIを活用したリサーチ・ライティング・マーケ戦略",
+      number: "Day1",
+      title: "【1日目】AI武装＆市場分析",
+      description: "あなた専用のAI秘書を作り、勝てる市場を発見する",
       details: [
-        "ChatGPT活用術の基礎から応用まで",
-        "AIライティングツールでコンテンツ大量生産",
-        "AI画像生成ツールでクリエイティブ制作",
-        "データ分析AIでマーケット調査"
+        "ChatGPT完全カスタマイズで個人専用AI秘書を構築",
+        "AI活用リサーチで穴場ニッチ市場を特定",
+        "競合分析と差別化ポイントの明確化",
+        "あなただけの事業コンセプト設計"
       ],
       icon: "🤖",
       color: "blue"
     },
     {
-      number: "02", 
-      title: "海外でのスモールビジネス企画と実践",
-      description: "デジタルプロダクト、サービス開発、販売チャネル構築",
+      number: "Day2", 
+      title: "【2日目】事業設計＆プロダクト開発",
+      description: "AIを駆使して24時間で実際の商品・サービスを形にする",
       details: [
-        "ニッチ市場の発見と参入戦略",
-        "デジタル商品の企画・開発",
-        "オンラインサービスの立ち上げ",
-        "海外向け販売チャネルの構築"
+        "AI活用でデジタルプロダクトを高速開発",
+        "販売ページ・LP作成（AIライティング活用）",
+        "決済システム・販売フローの構築",
+        "ブランディング・ロゴ作成（AI画像生成）"
       ],
-      icon: "🌍",
+      icon: "🛠️",
       color: "green"
     },
     {
-      number: "03",
-      title: "ビジネスの自動化と収益化", 
-      description: "AIツールで効率化、収益化の流れを設計",
+      number: "Day3",
+      title: "【3日目】自動化システム構築", 
+      description: "寝ている間も稼ぐ仕組みを完成させる",
       details: [
-        "販売プロセスの自動化システム",
-        "カスタマーサポートのAI化",
-        "マーケティング自動化の構築",
-        "収益分析と最適化戦略"
+        "完全自動化された販売システム構築",
+        "AIチャットボットでカスタマーサポート自動化",
+        "SNS投稿・マーケティングの自動化設定",
+        "収益分析ダッシュボードの設置"
       ],
       icon: "⚙️",
       color: "purple"
     },
     {
-      number: "04",
-      title: "帰国後も継続できる仕組み化",
-      description: "オンライン完結型事業の最終整備、リモート維持体制",
+      number: "Day4",
+      title: "【4日目】運用開始＆帰国準備",
+      description: "実際にリリース！帰国後の完全運営体制を整える",
       details: [
-        "完全リモート運営体制の構築",
-        "帰国後の事業継続戦略",
-        "スケーラビリティの確保",
-        "長期的成長プランの策定"
+        "実際に事業をリリース・販売開始",
+        "帰国後のリモート運営マニュアル完成",
+        "収益最大化のためのPDCAサイクル設計",
+        "T78コミュニティ参加権利の付与"
       ],
       icon: "🚀",
       color: "orange"
@@ -68,13 +68,23 @@ export default function CurriculumSection() {
     <section className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
+          <div className="bg-red-600 text-white px-8 py-4 rounded-full inline-block mb-6">
+            <h2 className="text-2xl md:text-3xl font-bold">
+              🚨 革命的！たった3泊4日で人生が変わる
+            </h2>
+          </div>
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
-            実践的な<span className="text-purple-600">4つのステップ</span>で、<br />
-            人生を変えるビジネスを構築
+            <span className="text-blue-600">超短期集中</span>ノマド事業構築講座
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            理論だけでなく、実際に手を動かして成果を出すカリキュラム
+          <p className="text-xl text-gray-600 max-w-4xl mx-auto mb-8">
+            <strong>帰国後から事業運営がスタートできる状態まで持っていきます。あとは動くだけ。</strong>
           </p>
+          <div className="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-900 p-6 rounded-lg max-w-4xl mx-auto">
+            <p className="text-lg font-semibold">
+              💼 <strong>会社に勤めるサラリーマンでさえも、船は作るべき。</strong><br />
+              有給休暇4日間で、一生の安心を手に入れる投資をしませんか？
+            </p>
+          </div>
         </div>
 
         <div className="space-y-12">
@@ -120,26 +130,42 @@ export default function CurriculumSection() {
           ))}
         </div>
 
-        <div className="mt-16 bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl text-white p-10 text-center">
-          <h3 className="text-3xl font-bold mb-4">
-            🎯 受講期間：6ヶ月間の集中プログラム
+        <div className="mt-16 bg-gradient-to-r from-red-600 to-orange-600 rounded-2xl text-white p-10 text-center">
+          <h3 className="text-3xl md:text-4xl font-bold mb-6">
+            ⚡ たった3泊4日で完結！
           </h3>
-          <p className="text-xl mb-6">
-            理論学習 × 実践ワーク × 個別コーチングで確実にスキルを習得
+          <p className="text-xl md:text-2xl mb-8 leading-relaxed">
+            <strong>有給休暇4日間</strong>で一生モノの事業スキルを習得<br />
+            帰国時にはすでに<strong>稼働中の事業オーナー</strong>になっています
           </p>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+          
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mb-8">
             <div className="bg-white bg-opacity-20 rounded-lg p-4">
-              <div className="text-2xl mb-2">📚</div>
-              <div className="font-semibold">週2回のオンライン講義</div>
+              <div className="text-3xl mb-2">🏃‍♂️</div>
+              <div className="font-bold">超高速学習</div>
+              <div className="text-sm mt-1">AI活用で学習効率10倍</div>
             </div>
             <div className="bg-white bg-opacity-20 rounded-lg p-4">
-              <div className="text-2xl mb-2">💬</div>
-              <div className="font-semibold">月1回の個別コーチング</div>
+              <div className="text-3xl mb-2">💼</div>
+              <div className="font-bold">働きながら参加</div>
+              <div className="text-sm mt-1">サラリーマンも安心</div>
             </div>
             <div className="bg-white bg-opacity-20 rounded-lg p-4">
-              <div className="text-2xl mb-2">👥</div>
-              <div className="font-semibold">受講生コミュニティ</div>
+              <div className="text-3xl mb-2">🚀</div>
+              <div className="font-bold">即座にスタート</div>
+              <div className="text-sm mt-1">帰国後すぐ運営開始</div>
             </div>
+            <div className="bg-white bg-opacity-20 rounded-lg p-4">
+              <div className="text-3xl mb-2">🌊</div>
+              <div className="font-bold">リスク回避</div>
+              <div className="text-sm mt-1">会社員の副業からOK</div>
+            </div>
+          </div>
+
+          <div className="bg-yellow-400 text-black p-6 rounded-2xl">
+            <p className="text-xl md:text-2xl font-bold">
+              🔥 会社に依存せず、自分の船で航海する人生を4日間で手に入れよう！
+            </p>
           </div>
         </div>
       </div>
