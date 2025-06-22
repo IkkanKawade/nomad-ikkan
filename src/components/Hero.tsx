@@ -3,11 +3,6 @@ export default function Hero() {
     <section className="bg-white py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
-          <div className="mb-6">
-            <span className="inline-block bg-gradient-to-r from-blue-600 to-blue-800 text-transparent bg-clip-text text-lg font-semibold mb-4">
-              Nomad X
-            </span>
-          </div>
           <h1 className="text-4xl md:text-6xl font-bold text-blue-900 mb-6 leading-tight">
             <span className="text-blue-600">AIを活用して海外で</span>
             <br />

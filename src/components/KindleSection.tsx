@@ -28,7 +28,7 @@ function BookCard({ title, description, amazonUrl, price, rating, coverImage, pu
               <Image src={coverImage} alt={title} width={200} height={300} className="w-full h-full object-cover" />
             ) : (
               <Image 
-                src="/nomad-x-logo.jpeg" 
+                src="/スクリーンショット 2025-06-22 12.37.08.png" 
                 alt={title} 
                 width={200} 
                 height={300} 
