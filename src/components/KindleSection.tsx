@@ -30,8 +30,8 @@ function BookCard({ title, description, amazonUrl, price, rating, coverImage, pu
               <Image 
                 src="/スクリーンショット 2025-06-22 12.37.08.png" 
                 alt={title} 
-                width={200} 
-                height={300} 
+                width={100} 
+                height={150} 
                 className="w-full h-full object-cover"
               />
             )}
