@@ -1,9 +1,18 @@
+import Image from 'next/image'
+
 export default function Header() {
   return (
     <header className="bg-white shadow-sm border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <div className="flex items-center">
+          <div className="flex items-center space-x-3">
+            <Image 
+              src="/nomad-x-logo.jpeg" 
+              alt="Nomad X" 
+              width={40} 
+              height={40} 
+              className="rounded-lg"
+            />
             <h1 className="text-2xl font-bold text-gray-900">Nomad X</h1>
           </div>
           <nav className="hidden md:flex space-x-8">
