@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 interface BookProps {
   title: string
   description: string
@@ -23,12 +25,15 @@ function BookCard({ title, description, amazonUrl, price, rating, coverImage, pu
         <div className="md:w-1/3">
           <div className="h-64 md:h-full bg-gradient-to-br from-orange-400 to-red-500 flex items-center justify-center">
             {coverImage ? (
-              <img src={coverImage} alt={title} className="w-full h-full object-cover" />
+              <Image src={coverImage} alt={title} width={200} height={300} className="w-full h-full object-cover" />
             ) : (
-              <div className="text-white text-center p-4">
-                <div className="text-6xl mb-2">📚</div>
-                <div className="text-sm font-semibold">{title}</div>
-              </div>
+              <Image 
+                src="/nomad-x-logo.jpeg" 
+                alt={title} 
+                width={200} 
+                height={300} 
+                className="w-full h-full object-cover"
+              />
             )}
           </div>
         </div>

@@ -9,8 +9,8 @@ export default function Header() {
             <Image 
               src="/nomad-x-logo.jpeg" 
               alt="Nomad X" 
-              width={40} 
-              height={40} 
+              width={60} 
+              height={60} 
               className="rounded-lg"
             />
             <h1 className="text-2xl font-bold text-gray-900">Nomad X</h1>
